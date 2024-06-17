@@ -24,15 +24,25 @@ function App() {
       
       <h1>Birds</h1> <br />
       <div>
-        { /* Here you should use birds.map(...) to display a list of birds */}
+        { /* Here you should use birds.map(...) to display the list of birds */}
+      </div>
+      
+      <h1>Counter</h1> <br />
+      
+      <div>
+        { /* Here you should make a counter
+             Use useState for the count starting at 0
+             Add a button that increments the counter by 1
+             Display the counter value
+         */}
       </div>
       
       <div>
         { /* Here you should use user to display
-          - first and last name
-          - email
-          - the medium picture
-          - country, state, city
+              - first and last name
+              - email
+              - the medium picture
+              - country, state, city
           */}
       </div>
       
@@ -59,6 +69,12 @@ function App() {
         { /* Here you should make a new component called Pokemon2 that takes name as a prop and
              fetch data from https://pokeapi.co/api/v2/pokemon/{name} and display the name and the image (sprites.front_default)
              Then you should use this component to display the following pokemons: squirtle, pikachu, charizard
+         */}
+      </div>
+      
+      <div>
+        { /* Here you should make a new component called PokemonSearch that has an input field and a button
+              When you enter a name in the input field and click the button it should fetch the pokemon with that name
          */}
       </div>
     
