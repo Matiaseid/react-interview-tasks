@@ -77,6 +77,35 @@ function App() {
               When you enter a name in the input field and click the button it should fetch the pokemon with that name
          */}
       </div>
+      
+      
+      <h1>CSS</h1> <br />
+      
+      { /* Can you center this blue div horizontally? */}
+      
+      <div style={{width: '100%', backgroundColor: 'white', margin: 20}}>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+      </div>
+      
+      
+      
+      { /* Can you make these divs appear in a row? */}
+      <div style={{width: '100%', backgroundColor: 'white', margin: 20}}>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+      </div>
+      
+      
+      { /* Can you make these divs appear in a 2x2 grid using "display: grid"? */}
+      <div style={{width: '100%', backgroundColor: 'white', margin: 20}}>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+        <div style={{width: 150, height: 150, margin: 20, backgroundColor: 'blue'}}></div>
+      </div>
     
     </div>
   );
